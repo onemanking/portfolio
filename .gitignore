@@ -58,3 +58,4 @@ build/
 # Temporary files
 *.tmp
 *.temp
+js/data.json

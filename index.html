@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Portfolio</title>
+    <meta name="description" content="A showcase of my projects and development work">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home">Portfolio</a>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <div class="nav-toggle" id="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav> <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    Hi, I'm <span class="highlight" id="hero-name">Your Name</span>
+                </h1>
+                <p class="hero-subtitle" id="hero-title">A passionate developer creating amazing projects</p>
+                <p class="hero-description" id="hero-description">
+                    Welcome to my portfolio where I showcase my latest projects and development work.
+                    Explore my creations and see what I've been building.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View Projects</a>
+                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="hero-card">
+                    <div class="card-header">
+                        <div class="card-dots">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <pre><code><span class="code-blue">const</span> <span class="code-yellow">developer</span> = {
+  <span class="code-blue">name</span>: <span class="code-green" id="hero-code-name">"Your Name"</span>,
+  <span class="code-blue">skills</span>: [<span class="code-green">"JavaScript"</span>, <span class="code-green">"React"</span>, <span class="code-green">"Node.js"</span>],
+  <span class="code-blue">passion</span>: <span class="code-green">"Building amazing projects"</span>
+};</code></pre>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Featured Projects</h2>
+                <p class="section-subtitle">A collection of my recent work and personal projects</p>
+            </div>
+
+            <div class="projects-filter">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="web">Web</button>
+                <button class="filter-btn" data-filter="mobile">Mobile</button>
+                <button class="filter-btn" data-filter="desktop">Desktop</button>
+            </div>
+
+            <div class="projects-grid" id="projects-grid">
+                <!-- Projects will be dynamically loaded here -->
+            </div>
+        </div>
+    </section> <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2 class="section-title" id="about-title">About Me</h2>
+                    <div id="about-paragraphs">
+                        <!-- About paragraphs will be dynamically loaded here -->
+                    </div>
+                    <div class="skills">
+                        <h3 id="skills-title">Technologies I work with:</h3>
+                        <div class="skills-grid" id="skills-grid">
+                            <!-- Skills will be dynamically loaded here -->
+                        </div>
+                    </div>
+                </div>
+                <div class="about-visual">
+                    <div class="stats-card">
+                        <div id="stats-container">
+                            <!-- Stats will be dynamically loaded here -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" id="contact-title">Let's Work Together</h2>
+                <p class="section-subtitle" id="contact-subtitle">Have a project in mind? Let's discuss how we can bring
+                    it to life</p>
+            </div>
+
+            <div class="contact-content">
+                <div class="contact-info" id="contact-info">
+                    <!-- Contact info will be dynamically loaded here -->
+                </div>
+
+                <div class="contact-form">
+                    <form id="contact-form">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Your Message" rows="5"
+                                required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section> <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p id="footer-copyright">&copy; 2025 Your Name. All rights reserved.</p>
+                <div class="social-links" id="social-links">
+                    <!-- Social links will be dynamically loaded here -->
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="back-to-top" class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </button> <!-- JavaScript -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
