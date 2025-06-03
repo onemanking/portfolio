@@ -52,6 +52,9 @@
       "category": "web",
       "githubUrl": "https://github.com/yourusername/ecommerce-platform",
       "liveUrl": "https://your-ecommerce-demo.netlify.app",
+      "linkUrl": null,
+      "vdoUrl": null,
+      "steamUrl": null,
       "icon": "fas fa-shopping-cart"
     },
     {
