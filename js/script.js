@@ -104,6 +104,7 @@ function updateActiveNavLink() {
 function initializeProjects() {
     renderProjects(projects);
     initializeProjectFilters();
+    renderProjectCategories();
 }
 
 // Render projects to the DOM
@@ -172,17 +173,35 @@ function createProjectCard(project) {
     return card;
 }
 
+// Render project filter buttons dynamically from data.json
+function renderProjectCategories() {
+    const filterContainer = document.querySelector('.projects-filter');
+    if (!filterContainer || !projects) return;
+
+    // Collect unique categories from projects
+    const categories = Array.from(new Set(projects.map(p => p.category)));
+    // Always include 'all' as the first filter
+    const filters = ['all', ...categories];
+
+    filterContainer.innerHTML = filters.map(cat => {
+        // Capitalize first letter
+        const label = cat.charAt(0).toUpperCase() + cat.slice(1);
+        return `<button class="filter-btn${cat === 'all' ? ' active' : ''}" data-filter="${cat}">${label}</button>`;
+    }).join('');
+
+    // Re-select filterBtns after re-render
+    window.filterBtns = document.querySelectorAll('.filter-btn');
+    initializeProjectFilters();
+}
+
 // Initialize project filters
 function initializeProjectFilters() {
-    filterBtns.forEach(btn => {
+    const btns = window.filterBtns || filterBtns;
+    btns.forEach(btn => {
         btn.addEventListener('click', function () {
             const filter = this.dataset.filter;
-
-            // Update active filter button
-            filterBtns.forEach(b => b.classList.remove('active'));
+            btns.forEach(b => b.classList.remove('active'));
             this.classList.add('active');
-
-            // Filter projects
             filterProjects(filter);
         });
     });
