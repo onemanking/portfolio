@@ -10,7 +10,9 @@
       "github": "https://github.com/yourusername",
       "linkedin": "https://linkedin.com/in/yourprofile",
       "twitter": "https://twitter.com/yourusername"
-    }
+    },
+    "skills": ["JavaScript", "React", "Node.js"],
+    "passion": "Building amazing projects"
   },
   "about": {
     "title": "About Me",
