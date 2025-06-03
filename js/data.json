@@ -44,7 +44,7 @@
       "id": 1,
       "title": "Home Sweet Home: Survive",
       "description": "A multiplayer horror game inspired by Thai mythology featuring asymmetrical gameplay. Players take on roles as either Survivors completing rituals to escape or Specters hunting them using supernatural abilities. Focuses on teamwork, strategy, and intense, unpredictable matches.",
-      "image": "/assets/images/projects/hsh.jpg",
+      "image": "assets/images/projects/hsh.jpg",
       "tags": ["Unreal", "AWS Gamelift", "BaaS", "Multiplayer", "Node.js"],
       "category": "game",
       "steamUrl": "https://store.steampowered.com/app/1056600/Home_Sweet_Home__Survive/"
@@ -53,7 +53,7 @@
       "id": 2,
       "title": "Make Me Up",
       "description": "An interactive in-store digital experience combining AR technology and personalized beauty consultation. Visitors receive virtual makeup try-ons, skincare analysis, and product recommendations tailored to their facial features and skin tone, enhancing customer engagement at Shiseido’s Ginza flagship store.",
-      "image": "/assets/images/projects/make_me_up_0.png",
+      "image": "assets/images/projects/make_me_up_0.png",
       "tags": ["Unity", "C#", "AR"],
       "category": "interactive",
       "vdoUrl": "https://www.youtube.com/shorts/_9jjbDmmVCc"
@@ -62,7 +62,7 @@
       "id": 3,
       "title": "Foundation Bar",
       "description": "A personalized foundation matching experience using advanced skin tone analysis technology. Customers receive tailored recommendations from a wide range of Shiseido foundation products, ensuring a perfect match in texture, shade, and finish, all delivered through an interactive and premium in-store experience.",
-      "image": "/assets/images/projects/foundation_bar.jpg",
+      "image": "assets/images/projects/foundation_bar.jpg",
       "tags": ["Unity", "C#", "Google Vision API", "Image Processing"],
       "category": "interactive",
       "vdoUrl": "https://www.tiktok.com/@jakegalvez/video/7325274235243433221"
@@ -71,7 +71,7 @@
       "id": 4,
       "title": "Digiskin Tester",
       "description": "An interactive digital skincare zone where customers can explore and learn about products at their fingertips through a touchscreen interface. The DigiSkin Tester provides information based on Shiseido’s personalized skincare philosophy, focusing on protection and revitalization tailored to individual needs. It also offers self-care techniques, and users can easily save personalized recommendations by scanning a QR code with their mobile devices",
-      "image": "/assets/images/projects/digiskin_tester.jpg",
+      "image": "assets/images/projects/digiskin_tester.jpg",
       "tags": ["Unity", "C#"],
       "category": "interactive",
       "vdoUrl": "https://www.youtube.com/watch?v=Wh28jtAizaU"
@@ -80,7 +80,7 @@
       "id": 5,
       "title": "Lidar sensor convert into mouse input",
       "description": "A system that maps LiDAR sensor data to 2D screen space, converting hand or object positions into real-time mouse input. Designed for precise, touch-free control within the screen area, it enables cursor movement and interaction based on depth-sensing gestures detected in front of the display.",
-      "image": "/assets/images/projects/lidar.jpg",
+      "image": "assets/images/projects/lidar.jpg",
       "tags": ["Unity", "C#", "LiDAR"],
       "category": "interactive",
       "icon": "fas fa-mouse-pointer"
@@ -89,7 +89,7 @@
       "id": 6,
       "title": "Code Chingoo",
       "description": "An interactive drag-and-drop coding app designed for children aged 4–11. Through engaging lessons and adventures to save the Coding Islands, kids learn foundational coding skills, logic, and problem-solving. Features include a Sandbox mode for creating games and animations, a customizable home for the in-app character Miimo, and a parent dashboard to monitor progress. The app is free, ad-free, and follows international educational standards.",
-      "image": "/assets/images/projects/miimo.png",
+      "image": "assets/images/projects/miimo.png",
       "tags": [
         "Unity",
         "C#",
@@ -107,7 +107,7 @@
       "id": 7,
       "title": "BANCHOU TACTICS",
       "description": "Banchou Tactics is a strategy turn based role-playing game in the Japanese Gangster High School (Banchou). Game inspire by Crows (Japanese Manga) River City Ransom and Final Fantasy Tactics.",
-      "image": "/assets/images/projects/banchou.jpg",
+      "image": "assets/images/projects/banchou.jpg",
       "tags": ["Unity", "C#", "ECS"],
       "category": "game",
       "steamUrl": "https://store.steampowered.com/app/1981160/BANCHOU_TACTICS/"
