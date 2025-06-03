@@ -42,69 +42,84 @@
   "projects": [
     {
       "id": 1,
-      "title": "E-Commerce Platformssss",
-      "description": "A full-stack e-commerce solution with React frontend, Node.js backend, and MongoDB database. Features include user authentication, payment processing, and admin dashboard.",
-      "image": null,
-      "tags": ["React", "Node.js", "MongoDB", "Stripe"],
-      "category": "web",
-      "githubUrl": "https://github.com/yourusername/ecommerce-platform",
-      "liveUrl": "https://your-ecommerce-demo.netlify.app",
-      "icon": "fas fa-shopping-cart"
+      "title": "Home Sweet Home: Survive",
+      "description": "A multiplayer horror game inspired by Thai mythology featuring asymmetrical gameplay. Players take on roles as either Survivors completing rituals to escape or Specters hunting them using supernatural abilities. Focuses on teamwork, strategy, and intense, unpredictable matches.",
+      "image": "/assets/images/projects/hsh.jpg",
+      "tags": ["Unreal", "AWS Gamelift", "BaaS", "Multiplayer", "Node.js"],
+      "category": "game",
+      "steamUrl": "https://store.steampowered.com/app/1056600/Home_Sweet_Home__Survive/"
     },
     {
       "id": 2,
-      "title": "Task Management App",
-      "description": "A responsive task management application built with Vue.js and Firebase. Includes drag-and-drop functionality, real-time updates, and team collaboration features.",
-      "image": null,
-      "tags": ["Vue.js", "Firebase", "CSS3", "JavaScript"],
-      "category": "web",
-      "githubUrl": "https://github.com/yourusername/task-manager",
-      "liveUrl": "https://your-task-manager.netlify.app",
-      "icon": "fas fa-tasks"
+      "title": "Make Me Up",
+      "description": "An interactive in-store digital experience combining AR technology and personalized beauty consultation. Visitors receive virtual makeup try-ons, skincare analysis, and product recommendations tailored to their facial features and skin tone, enhancing customer engagement at Shiseido’s Ginza flagship store.",
+      "image": "/assets/images/projects/make_me_up_0.png",
+      "tags": ["Unity", "C#", "AR"],
+      "category": "interactive",
+      "vdoUrl": "https://www.youtube.com/shorts/_9jjbDmmVCc"
     },
     {
       "id": 3,
-      "title": "Weather Mobile App",
-      "description": "A cross-platform mobile application built with React Native. Features location-based weather forecasts, offline caching, and beautiful animations.",
-      "image": null,
-      "tags": ["React Native", "API Integration", "SQLite"],
-      "category": "mobile",
-      "githubUrl": "https://github.com/yourusername/weather-app",
-      "liveUrl": null,
-      "icon": "fas fa-cloud-sun"
+      "title": "Foundation Bar",
+      "description": "A personalized foundation matching experience using advanced skin tone analysis technology. Customers receive tailored recommendations from a wide range of Shiseido foundation products, ensuring a perfect match in texture, shade, and finish, all delivered through an interactive and premium in-store experience.",
+      "image": "/assets/images/projects/foundation_bar.jpg",
+      "tags": ["Unity", "C#", "Google Vision API", "Image Processing"],
+      "category": "interactive",
+      "vdoUrl": "https://www.tiktok.com/@jakegalvez/video/7325274235243433221"
     },
     {
       "id": 4,
-      "title": "Portfolio Website",
-      "description": "A modern, responsive portfolio website showcasing projects and skills. Built with vanilla JavaScript and optimized for performance and SEO.",
-      "image": null,
-      "tags": ["HTML5", "CSS3", "JavaScript", "Responsive"],
-      "category": "web",
-      "githubUrl": "https://github.com/yourusername/portfolio",
-      "liveUrl": "https://yourname.github.io/portfolio",
-      "icon": "fas fa-user"
+      "title": "Digiskin Tester",
+      "description": "An interactive digital skincare zone where customers can explore and learn about products at their fingertips through a touchscreen interface. The DigiSkin Tester provides information based on Shiseido’s personalized skincare philosophy, focusing on protection and revitalization tailored to individual needs. It also offers self-care techniques, and users can easily save personalized recommendations by scanning a QR code with their mobile devices",
+      "image": "/assets/images/projects/digiskin_tester.jpg",
+      "tags": ["Unity", "C#"],
+      "category": "interactive",
+      "vdoUrl": "https://www.youtube.com/watch?v=Wh28jtAizaU"
     },
     {
       "id": 5,
-      "title": "Data Visualization Dashboard",
-      "description": "An interactive dashboard for data visualization using D3.js and Python backend. Features real-time charts, filtering, and export functionality.",
-      "image": null,
-      "tags": ["D3.js", "Python", "Flask", "PostgreSQL"],
-      "category": "web",
-      "githubUrl": "https://github.com/yourusername/data-dashboard",
-      "liveUrl": "https://your-dashboard-demo.herokuapp.com",
-      "icon": "fas fa-chart-bar"
+      "title": "Lidar sensor convert into mouse input",
+      "description": "A system that maps LiDAR sensor data to 2D screen space, converting hand or object positions into real-time mouse input. Designed for precise, touch-free control within the screen area, it enables cursor movement and interaction based on depth-sensing gestures detected in front of the display.",
+      "image": "/assets/images/projects/lidar.jpg",
+      "tags": ["Unity", "C#", "LiDAR"],
+      "category": "interactive",
+      "icon": "fas fa-mouse-pointer"
     },
     {
       "id": 6,
-      "title": "Desktop Note-Taking App",
-      "description": "A cross-platform desktop application built with Electron. Features rich text editing, file organization, and cloud synchronization.",
-      "image": null,
-      "tags": ["Electron", "JavaScript", "SQLite", "CSS"],
-      "category": "desktop",
-      "githubUrl": "https://github.com/yourusername/notes-app",
-      "liveUrl": null,
-      "icon": "fas fa-sticky-note"
+      "title": "Code Chingoo",
+      "description": "An interactive drag-and-drop coding app designed for children aged 4–11. Through engaging lessons and adventures to save the Coding Islands, kids learn foundational coding skills, logic, and problem-solving. Features include a Sandbox mode for creating games and animations, a customizable home for the in-app character Miimo, and a parent dashboard to monitor progress. The app is free, ad-free, and follows international educational standards.",
+      "image": "/assets/images/projects/miimo.png",
+      "tags": [
+        "Unity",
+        "C#",
+        "Firebase",
+        "Node.js",
+        "TypeScript",
+        "Flutter",
+        "ElectronJs",
+        "React"
+      ],
+      "category": "game",
+      "linkUrl": "https://codechingoo.ai/"
+    },
+    {
+      "id": 7,
+      "title": "BANCHOU TACTICS",
+      "description": "Banchou Tactics is a strategy turn based role-playing game in the Japanese Gangster High School (Banchou). Game inspire by Crows (Japanese Manga) River City Ransom and Final Fantasy Tactics.",
+      "image": "/assets/images/projects/banchou.jpg",
+      "tags": ["Unity", "C#", "ECS"],
+      "category": "game",
+      "steamUrl": "https://store.steampowered.com/app/1981160/BANCHOU_TACTICS/"
+    },
+    {
+      "id": 8,
+      "title": "More Projects",
+      "description": "Explore more of my projects on GitHub, where I share my latest work and contributions to various open-source initiatives. Check out my repositories for code samples, project documentation, and more.",
+      "tags": ["GitHub", "Open Source"],
+      "category": "web",
+      "githubUrl": "https://github.com/onemanking?tab=repositories&q=&type=source&language=&sort=",
+      "icon": "fab fa-github"
     }
   ]
 }
