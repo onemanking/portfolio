@@ -248,11 +248,19 @@ function initializePersonalInfo() {
         const heroTitle = document.getElementById('hero-title');
         const heroDescription = document.getElementById('hero-description');
         const heroCodeName = document.getElementById('hero-code-name');
+        const heroCodeSkills = document.getElementById('hero-code-skills');
+        const heroCodePassion = document.getElementById('hero-code-passion');
 
         if (heroName) heroName.textContent = personalInfo.name;
         if (heroTitle) heroTitle.textContent = personalInfo.title;
         if (heroDescription) heroDescription.textContent = personalInfo.description;
         if (heroCodeName) heroCodeName.textContent = `"${personalInfo.name}"`;
+        if (heroCodeSkills && Array.isArray(personalInfo.skills)) {
+            heroCodeSkills.innerHTML = personalInfo.skills.map(skill => `\"${skill}\"`).join(', \n           ');
+        }
+        if (heroCodePassion && personalInfo.passion) {
+            heroCodePassion.textContent = `"${personalInfo.passion}"`;
+        }
 
         // Update page title
         document.title = `${personalInfo.name} - Portfolio`;
