@@ -126,11 +126,28 @@ function createProjectCard(project) {
         ? `<img src="${project.image}" alt="${project.title}">`
         : `<i class="${project.icon}"></i>`;
 
-    const liveLink = project.liveUrl
+    const githubUrl = project.githubUrl ? `<a href="${project.githubUrl}" class="project-link" target="_blank" rel="noopener noreferrer">
+             <i class="fab fa-github"></i> Source Code </a>` : '';
+
+    const liveUrl = project.liveUrl
         ? `<a href="${project.liveUrl}" class="project-link" target="_blank" rel="noopener noreferrer">
              <i class="fas fa-external-link-alt"></i> Live Demo
            </a>`
         : '';
+
+    const linkUrl = project.linkUrl
+        ? `<a href="${project.linkUrl}" class="project-link" target="_blank" rel="noopener noreferrer">
+                <i class="fas fa-link"></i> More Info
+           </a>`
+        : '';
+
+    const vdoUrl = project.vdoUrl ? `<a href="${project.vdoUrl}" class="project-link" target="_blank" rel="noopener noreferrer">
+                <i class="fas fa-video"></i> Watch Video
+              </a>` : '';
+
+    const steamUrl = project.steamUrl ? `<a href="${project.steamUrl}" class="project-link" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-steam"></i> View on Steam
+                </a>` : '';
 
     card.innerHTML = `
         <div class="project-image">
@@ -143,10 +160,11 @@ function createProjectCard(project) {
                 ${project.tags.map(tag => `<span class="project-tag">${tag}</span>`).join('')}
             </div>
             <div class="project-links">
-                <a href="${project.githubUrl}" class="project-link" target="_blank" rel="noopener noreferrer">
-                    <i class="fab fa-github"></i> Source Code
-                </a>
-                ${liveLink}
+                ${githubUrl}
+                ${liveUrl}
+                ${linkUrl}
+                ${vdoUrl}
+                ${steamUrl}
             </div>
         </div>
     `;
