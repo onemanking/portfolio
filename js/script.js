@@ -8,7 +8,6 @@ const navLinks = document.querySelectorAll('.nav-link');
 const backToTopBtn = document.getElementById('back-to-top');
 const projectsGrid = document.getElementById('projects-grid');
 const filterBtns = document.querySelectorAll('.filter-btn');
-const contactForm = document.getElementById('contact-form');
 
 // Initialize the app
 document.addEventListener('DOMContentLoaded', async function () {
@@ -49,7 +48,6 @@ document.addEventListener('DOMContentLoaded', async function () {
         initializeProjects();
         initializeAnimations();
         initializeScrollEffects();
-        initializeContactForm();
         initializeStatCounters();
 
     } catch (error) {

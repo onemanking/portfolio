@@ -504,9 +504,8 @@ p {
 }
 
 .contact-content {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 60px;
+    display: flex;
+    justify-content: center;
     margin-top: 60px;
 }
 
@@ -697,11 +696,10 @@ p {
     .about-content {
         grid-template-columns: 1fr;
         gap: 40px;
-    }
-
-    .contact-content {
-        grid-template-columns: 1fr;
-        gap: 40px;
+    }    @media (max-width: 768px) {
+        .contact-content {
+            justify-content: center;
+        }
     }
 
     .footer-content {
